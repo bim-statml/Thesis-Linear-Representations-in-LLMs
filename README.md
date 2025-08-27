@@ -6,7 +6,7 @@ We confirm the results with LLaMA-2 representations and this repo provides the c
 ## Data
 In [`word_pairs`](word_pairs), each `[___ - ___].txt` has bilingual pairs of words for each language combination. We use them to estimate the unembedding representations.
 
-In [`paired_contexts`](paired_contexts), each `__-__.jsonl` has context samples from Wikipedia in different languages. We use them for the measurement experiment ([`3_measurement.ipynb`](3_measurement.ipynb)).
+In [`paired_contexts`](paired_contexts), each `__-__.jsonl` has context samples from Wikipedia in different languages. We use them for the measurement experiment ([**`3_classification.ipynb`**](3_classification.ipynb)).
 
 ## Requirement
 You need to install Python packages `transformers`, `torch`, `numpy`, `seaborn`, `matplotlib`, `json`, and `tqdm` to run the codes. Also, you need some GPUs to implement the code efficiently.
@@ -20,3 +20,4 @@ Make a directory `matrices` and run [`0_store_matrices_bm.py`](0_store_matrices_
 still carry information about linguistically similar languages.
 
 - [**`4_translation.ipynb`**](4_translation.ipynb): We confirm that the embedding representation changes the target concept, which can be used for rudimentary translation in a bilingual concept setting.
+
