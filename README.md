@@ -1,4 +1,4 @@
-# linear_rep_geometry
+# Linear Representations
 In our report, we explore how the notion of a linear representation hypothesis applies to multilingual concepts in large language models
 
 We confirm the results with LLaMA-2 representations and this repo provides the code for the experiments.
@@ -18,4 +18,5 @@ Make a directory `matrices` and run [`0_store_matrices_bm.py`](0_store_matrices_
 - [**`2_causal.ipynb`**](2_causal.ipynb): We compare the orthogonality between the unembedding representations for causally separable multilingual concepts based on the causal inner product
 - [**`3_classification.ipynb`**](3_classification.ipynb): We confirm that bilingual pairs that are statistically independent under the causal inner product
 still carry information about linguistically similar languages.
+
 - [**`4_translation.ipynb`**](4_translation.ipynb): We confirm that the embedding representation changes the target concept, which can be used for rudimentary translation in a bilingual concept setting.
